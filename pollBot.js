@@ -33,6 +33,8 @@ client.on('message', message => {
       if(poll_options[poll_options.length - 1].includes(':')) {
         poll_time_string = 'for ' + poll_options[poll_options.length - 1];
         poll_options.pop();
+      } else {
+        poll_time_string = "";
       }
 
       //check for custom message flag and remove it
