@@ -1,1 +1,1 @@
-worker: npm run pollBot.js
+worker: node pollBot.js
