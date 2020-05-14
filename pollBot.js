@@ -1,6 +1,6 @@
 // require the discord.js module
 const Discord = require('discord.js');
-const { prefix, pollToken } = require('./config.json');
+const { prefix } = require('./config.json');
 const { emojis } = require('./pollBotConfig.json')
 
 // create a new Discord client
@@ -101,4 +101,4 @@ client.on('message', message => {
 })
 
 // login to Discord with your app's token
-client.login(pollToken);
+client.login(process.env.POLL_TOKEN);
