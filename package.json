@@ -4,7 +4,7 @@
   "description": "Take a poll",
   "main": "pollBot.js",
   "scripts": {
-    "pollbot": "nodemon pollBot.js"
+    "pollbot": "npm pollBot.js"
   },
   "author": "Poll Bot",
   "dependencies": {
