@@ -10,16 +10,9 @@
   "dependencies": {
     "@discordjs/uws": "^10.149.0",
     "@google-cloud/speech": "^3.2.5",
-    "bufferutil": "^4.0.0",
     "discord.js": "^11.5.1",
-    "erlpack": "github:discordapp/erlpack",
     "eslint": "^6.1.0",
-    "libsodium-wrappers": "^0.7.5",
     "moment": "^2.24.0",
-    "mongoose": "^5.8.9",
-    "node-opus": "^0.2.7",
-    "nodemon": "^2.0.2",
-    "opusscript": "0.0.6",
-    "superscript-number": "^1.0.0"
+    "nodemon": "^2.0.2"
   }
 }
